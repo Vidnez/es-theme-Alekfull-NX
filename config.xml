@@ -1,0 +1,58 @@
+<theme>
+    <formatVersion>4</formatVersion>
+
+
+    <!--Languages-->
+        <include>./lang/en.xml</include>
+	    <include lang="eu">./lang/en.xml</include>
+        <include lang="es">./lang/es.xml</include>
+        <include lang="mx">./lang/es.xml</include>
+        <include lang="de">./lang/de.xml</include>
+        <include lang="fr">./lang/fr.xml</include>
+        <include lang="ja">./lang/jp_min.xml</include>
+        <include lang="ko">./lang/ko.xml</include>
+        <include lang="pt">./lang/pt.xml</include>
+        <include lang="ru">./lang/ru.xml</include>
+        <include lang="zh">./lang/zh_min.xml</include>
+
+    <!--Systems descriptions in home-->
+
+        <include>./systems/${system.theme}.xml</include>  
+
+    <!--Aspect Ratio-->
+	    
+        <include>./options/display/11.xml</include>
+
+    <!--Image type in Detailed view-->
+
+        <include subset="gamelist art" name="Boxart" displayName="Boxart">./options/gamelist/thumbnail.xml</include>
+        <include subset="gamelist art" name="Screenshot" displayName="Screenshot">./options/gamelist/screenshot.xml</include>
+
+    <!--Video Delay-->
+
+        <include subset="vdelay" name="3" displayName="${delay3}">./options/videodelay/video_delay_3.xml</include>
+        <include subset="vdelay" name="2" displayName="${delay2}">./options/videodelay/video_delay_2.xml</include>
+        <include subset="vdelay" name="1" displayName="${delay1}">./options/videodelay/video_delay_1.xml</include>
+        <include subset="vdelay" name="0" displayName="${delay0}">./options/videodelay/video_delay_0.xml</include>
+        <include subset="vdelay" name="nv" displayName="${novideo}">./options/videodelay/no_video.xml</include>
+
+
+    <!--Background set-->
+        <include subset="style" name="Alekfull" displayName="Alekfull">./options/backgrounds/alekfull.xml</include>
+        <include subset="style" name="Artflix" displayName="Artflix">./options/backgrounds/artflix.xml</include>
+
+    <!--home description and controllers-->
+        <include subset="systemview" name="yes" displayName="yes">./options/display/showhomeinfo.xml</include>
+        <include subset="systemview" name="no" displayName="no">./options/display/hidehomeinfo.xml</include>
+
+    <!-- Operating System -->
+        <include subset="compatibility" name="arkos" displayName="arkos">./options/OS/arkos.xml</include>
+        <include subset="compatibility" name="jelos" displayName="jelos">./options/OS/jelosrock.xml</include>
+
+    <!--Other options-->
+
+        <include>./options/logosets/color.xml</include>
+	    <include>./${ratset}/horizontal_details.xml</include>
+
+
+</theme>

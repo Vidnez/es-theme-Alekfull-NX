@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">	
+
+        <image name="art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+      </image>	
+
+    <image name="background" extra="true">
+      </image> 
+
+	<image name="console" extra="true">
+    </image>
+
+
+	  <text name="shortdescription" extra="true">
+   <text>1990  ·  16-bit Console</text>
+  </text>
+		<text name="description" extra="true">
+			<text>The TurboGrafx-CD is an add on for the TurboGrafx-16. It was released to expand the library of games of the TurboGrafx 16.  It adds the ability to play full motion video and CD audio as well as greatly expanded storage capacity.</text>
+		</text>
+		
+	</view>
+</theme>

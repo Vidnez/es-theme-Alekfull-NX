@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>4</formatVersion>
+	<view name="system">		
+		<image name="logo">
+		<path>./assets/logos/color_logo/default.png</path>
+		<path>./assets/logos/color_logo/${system.theme}.jpg</path>
+	    </image>
+    </view>
+</theme>

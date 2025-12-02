@@ -1,0 +1,88 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <feature supported="carousel">
+
+        <view name="system">
+            <carousel name="systemcarousel" extra="true">
+                <type>horizontal</type>
+                <reflections>true</reflections>
+                <pos>-0.5 0.683</pos>
+                <size>1.5 0.24</size>
+                <color>ffffff00</color>
+                <logoScale>1.1</logoScale>
+                <logoSize>0.2 .2</logoSize>
+                <maxLogoCount>7</maxLogoCount>
+                <logoAlignment>left</logoAlignment>
+                <defaultTransition>instant</defaultTransition>
+                <scrollSound>./assets/sounds/scroll.wav</scrollSound>
+                <zIndex>2</zIndex>
+            </carousel>
+
+            
+            
+            <image name="background" extra="true">
+                <origin>0 0</origin>
+                <color>${accent}</color>
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./assets/filters/${themecolor}/home-bottombar.png</path>
+                <zIndex>1</zIndex>
+            </image>
+
+
+            <image name="selector" extra="true">
+                <origin>0 0</origin>
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./assets/filters/${themecolor}/selector.png</path>
+                <zIndex>3</zIndex>
+            </image>
+
+	        <text name="shortdescription">
+                <visible>false</visible>
+                <pos>0.5 0.63</pos>
+                <backgroundColor>00000000</backgroundColor>
+                <color>${cinfotext}</color>
+                <alignment>center</alignment>
+                <fontPath>./fonts/${font4g}</fontPath>
+                <fontSize>0.028</fontSize>
+                <glowColor>${ctextglow}</glowColor>
+                <glowSize>1</glowSize>
+            </text>
+
+            <text name="description" extra="true">
+                <visible>${homeinfo}</visible>
+                <fontPath>./fonts/${font3s}</fontPath>
+                <pos>.035 0.42</pos>
+                <size>0.55 0.25</size>
+                <alignment>left</alignment>
+                <color>${cdescriptiontext}</color>
+                <fontSize>0.02</fontSize>
+                <glowColor>${ctextglow}</glowColor>
+                <glowSize>1</glowSize>
+            </text>
+
+            <text name="systemInfo">
+                <visible>true</visible>
+                <pos>-0.253 0.86</pos>
+                <backgroundColor>00000000</backgroundColor>
+                <color>ffffff</color>
+                <alignment>center</alignment>
+                <fontPath>./fonts/${font2s}</fontPath>
+                <fontSize>0.016</fontSize>
+                <glowColor>${ctextglow}</glowColor>
+                <glowSize>0</glowSize>
+             </text>
+
+            <image name="controllers" extra="true">
+                <visible>${homeinfo}</visible>
+                <path>./assets/controllers/default.png</path>
+                <path>./assets/controllers/${system.theme}.png</path>
+                <pos>${controlpos}</pos>
+                <maxSize>${controlsize}</maxSize>
+                <alignment>right</alignment>
+            </image> 
+
+        </view>
+    </feature>  
+</theme>
